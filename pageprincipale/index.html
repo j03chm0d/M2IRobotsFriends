@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexstyles.css">
     <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div></div>
-      <div></div>
-    </header>
-  </body>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <h1>
+                <p>Robot</p>
+                <p class="Friends">Friends</p>
+            </h1>
+            <div id="header-utilisateur">
+                <div>
+                    <img src="image/aston-martin-dbc-2013-concept_1920x1080.jpg" alt="" />
+                </div>
+                <div id="header-text">
+                    <h4>Joseph Joe</h4>
+                    <p>joe@joe.com</p>
+                </div>
+            </div>
+
+        </header>
+        <div class="page">
+            <nav id="navigateur">
+                <div id="nav-menu">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li class="home">Home</li>
+                        <li>Favourite</li>
+                    </ul>
+                </div>
+                <div id="nav-settings">
+                    <h4>Settings</h4>
+                    <ul>
+                        <li>My Account</li>
+                        <li>Preferences</li>
+                    </ul>
+                </div>
+                <div id="nav-footer">
+
+                    <h5>
+
+                        <p>Robot</p>
+                        <p class="Friends">friends</p>
+                    </h5>
+                    <p>V1.0 - July 2024</p>
+
+
+
+                </div>
+            </nav>
+            <main id="main">
+                <div id="main-filter">
+                    <h2>Filter by city</h2>
+                    <input id=" main-recherchefriend" placeholder="search a friend" />
+                </div>
+                
+        <div id="carte">
+            <div id="main-cities"></div>
+                <div id="main-cartes"></div>
+        </div>
+        </main>
+        </div>
+        
+    </div>
+    </div>
+    <script>console.log("before axios")</script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>console.log("after axios")</script>
+    <script src="index.js"></script>
+    <script>console.log("after index.js")</script>
+</body>
+
 </html>
